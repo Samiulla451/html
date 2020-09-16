@@ -1,0 +1,124 @@
+body {
+    /* background-color: hotpink; */
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-repeat: no-repeat; */
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container1 {
+
+    width: 100%;
+
+    height: 100px;
+    /* border: 2px solid red; */
+    /* border-radius: 50px; */
+    padding-top: 15px;
+    padding-left: 20px;
+
+
+    display: flex;
+    
+    position: fixed;
+    z-index: 1;
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container1 a {
+    color: rgb(209, 209, 37);
+}
+
+.container1 a:hover {
+    color: rgb(241, 241, 194);
+}
+
+.container2 {
+    width: cover;
+
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+    height: 175px;
+    width: 120px;
+    border: 2px solid green;
+    border-radius: 10px;
+
+}
+
+.fa {
+    color: rgb(235, 8, 8);
+    font-size: 45px;
+}
+
+.fa:hover {
+
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
+    background-color: white;
+}
+
+
+.container1 p,
+p1 {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+
+
+}
+
+p1 {
+    position: relative;
+    left: 590px;
+    top: 50%;
+
+}
+
+btn a{
+    position: relative;
+    left: 8px;
+    bottom: -5px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 3px;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: bold;
+    border: 1px solid grey;
+    color: blue;
+}
+
+
+
+
+.item:hover {
+    border: 3px solid rgb(245, 200, 55);
+}
+
+img {
+    width: 100px;
+    padding: 7px;
+}
+
+
+.container2 btn a:hover{
+    background-color: yellow;
+}
